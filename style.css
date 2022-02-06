@@ -104,37 +104,66 @@ body {
 
 
 
-#jeju{
+#space{
     position: relative;
     float:left;
     width:100%;
-    height:100vh;
-    overflow: hidden!improtant;
-    z-index: 10;
+    height:100%;
+    background-image: url(contents/space.jpg);
+    background-position: center;
+    background-size: 100%;
 }
 
-.title{
-    position: fixed;
+
+.cafe{
+    position: absolute;
+    width:130px;
+    top:50%;
+    left:10px;
+    transform: rotate(-10deg);
+}
+
+.food{
+    position: absolute;
+    top:60%;
+    right:100px;
+    width:150px;
+}
+
+.trip{
+    position: absolute;
+    width:200px;
+    top:50px;
+    left:150px;
+    transform: rotate(20deg);
+}
+
+
+.umm{
+    position: absolute;
+    width:100px;
     top:50%;
     left:50%;
-    color:#f6d365;
-    font-size:200px;
-    transform: translate(-50%,-60%);
-    opacity: .2;
+    transform: translate(-50,-50%);
+}
+
+.holymoly{
+    position: absolute;
+    width:100px;
+    top:35%;
+    left:40px;
 }
 
 
-
-#songdo{
-    position: relative;
-    float:left;
+.txt{
+    position: absolute;
     width:100%;
-    height:100vh;
-    overflow: hidden;
-    z-index: 11;
+    text-align: center;
+    font-family: "Urbanist-SemiBold";
+    font-family: "Jost-100-Hairline";
+    font-size: 50px;
+    bottom:10px;
+    opacity: .4;
+    color:#eacda3;
 }
 
-.songdo-title{
-    color:#c2e9fb;
-    overflow: hidden;
-}
