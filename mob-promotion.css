@@ -22,6 +22,11 @@
 }
 
 @font-face {
+    src: url("fonts/Pretendard-Bold.otf");
+    font-family: "Pretendard-Bold";
+}
+
+@font-face {
     src: url("fonts/Pretendard-ExtraBold.otf");
     font-family: "Pretendard-ExtraBold";
 }
@@ -483,6 +488,7 @@ li {
     padding-left: 25px;
     padding-right: 25px;
     margin-top:80px;
+    padding-bottom: 100px;
 }
 
 .mob-promotion1-section5-title-eng{
@@ -501,6 +507,38 @@ li {
     font-size: 13px;
     margin-bottom: 50px;
 }
+
+.mob-promotion1-section5-wrap{
+    position: relative;
+    float:left;
+    width:100%;
+    display: flex;
+}
+
+.mob-promotion1-section5-left{
+    position: relative;
+    width:70%;
+    font-family: "Pretendard-Regular";
+    font-size: 13px;
+    line-height: 2;
+    text-align: justify;
+}
+.mob-promotion1-section5-left img{
+    position: relative;
+    float:left;
+    width:150px;
+}
+.mob-promotion1-section5-right {
+    position: relative;
+    margin-left:20px;
+    width:30%;
+    height:250px;
+    background-image: url(plantlance-image/plan-a/block9.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* //.mob-promotion1-section5 끝 */
 
 /* //.mob-promotion1-wrap 끝 */
