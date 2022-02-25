@@ -594,8 +594,8 @@ li {
     width:100%;
 }
 .mob-promotion2-slide a:nth-child(2){
-    margin-left:60px;
-    margin-right:60px;
+    margin-left:10px;
+    margin-right:10px;
 }
 .mob-promotion2-slide img{
     position: relative;
@@ -609,8 +609,7 @@ li {
 
 
 #mob-promotion2-section4-btn1:checked ~ .mob-slide-img-wrap{
-    left:0;
-    transform: translate(0);
+    margin-left:0;
 }
 #mob-promotion2-section4-btn2:checked ~ .mob-slide-img-wrap{
    margin-left:-100%;
