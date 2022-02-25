@@ -739,3 +739,24 @@ li {
 /* //.mob-promotion2-wrap 끝 */
 
 
+
+.mob-top-btn{
+    position: fixed;
+    bottom:50px;
+    right:50px;
+    width:45px;
+    height:45px;
+    border-radius: 100%;
+    background: #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: .6;
+}
+.mob-top-btn-img{
+    position: relative;
+    width:20px;
+    transform: rotate(-90deg);
+    top:2px;
+    filter: invert();
+}
