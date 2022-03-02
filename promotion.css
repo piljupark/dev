@@ -215,7 +215,6 @@ input {
     position: relative;
     float: left;
     width: 100%;
-    height: 210px;
     margin-top: 240px;
 }
 
@@ -259,11 +258,13 @@ input {
     font-family: "Pretemndard-Medium";
 }
 
-.block-img {
-    position: relative;
+.momo-top {
+    position:absolute;
     float: right;
-    width: 900px;
+    width: 400px;
     margin-top: 40px;
+    right:50px;
+    bottom:-100px;
 }
 
 /* //#promotion1 끝 */
@@ -280,6 +281,11 @@ input {
     margin-top: 140px;
 }
 
+.layout1, .layout2{
+    position: relative;
+    float:left;
+    width:100%;
+}
 
 .option-wrap {
     position: relative;
@@ -535,12 +541,19 @@ input {
     transform: translate(-50%);
 }
 
-.wily-img {
+.grae-top {
     position: relative;
     float: right;
     width: 600px;
     bottom: 70px;
 }
+
+.grae-layout{
+    position: relative;
+    float:left;
+    width:100%;
+}
+
 
 .wily1-img {
     position: relative;
@@ -848,11 +861,31 @@ input {
 }
 
 
+
+
 /* //.pc-view 끝 */
 
 
 
+/* //준비 공지 시작 */
+/*.ready-next-month{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    top:0;
+    left:0;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ready-next-month p{
+    position: relative;
+    font-family: "Pretendard-Medium";
+    font-size: 20px;
+}*/
 
+/* //준비 공지 끝 */
 
 
 
