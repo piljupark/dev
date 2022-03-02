@@ -202,9 +202,12 @@ li {
     width:80%;
     left:50%;
     transform: translate(-50%);
-    margin-top:150px;
 }
-
+.mob-momo-layout{
+    position: relative;
+    float:left;
+    width:100%;
+}
 .mob-promotion1-title-wrap{
     position: relative;
     float:left;
@@ -555,6 +558,19 @@ li {
 
 
 /* //.mob-promotion2-wrap 시작 */
+.mob-promotion2-img{
+    position: relative;
+    float:left;
+    width:80%;
+    left:50%;
+    transform: translate(-50%);
+    margin-top:100px;
+}
+.mob-grae-layout{
+    position: relative;
+    float:left;
+    width:100%;
+}
 .mob-promotion2-section3-img{
     position: relative;
     float:left;

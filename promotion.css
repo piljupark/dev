@@ -22,10 +22,14 @@
 }
 
 @font-face {
+    src: url("fonts/Pretendard-Bold.otf");
+    font-family: "Pretendard-Bold";
+}
+
+@font-face {
     src: url("fonts/Pretendard-ExtraBold.otf");
     font-family: "Pretendard-ExtraBold";
 }
-
 
 
 
