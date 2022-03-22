@@ -757,8 +757,8 @@ li {
 
 .mob-top-btn{
     position: fixed;
-    bottom:50px;
-    right:50px;
+    bottom:30px;
+    right:20px;
     width:45px;
     height:45px;
     border-radius: 100%;
