@@ -1,0 +1,152 @@
+/* Pretendard */
+
+@font-face {
+    font-family: "Pretendard-ExtraLight";
+    src: url(/fonts/Pretendard-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Light";
+    src: url(/fonts/Pretendard-Light.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Thin";
+    src: url(/fonts/Pretendard-Thin.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url(/fonts/Pretendard-Regular.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Medium";
+    src: url(/fonts/Pretendard-Medium.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-SemiBold";
+    src: url(/fonts/Pretendard-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Bold";
+    src: url(/fonts/Pretendard-Bold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-ExtraBold";
+    src: url(/fonts/Pretendard-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Black";
+    src: url(/fonts/Pretendard-Black.otf);
+}
+
+
+
+
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+#google {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#google table {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#google td {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+#google .g_search {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    padding-left:25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    font-family: "Pretendard-SemiBold";
+    font-size: 16px;
+
+}
+
+#google .g_btn{
+    width:50px;
+    height:50px;
+    border:none;
+    background: none;
+    font-family: "Pretendard-SemiBold";
+    font-size: 16px;
+    background-image: url(img/google.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#naver {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#naver table {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#naver td {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+#naver .n_search {
+    box-sizing: border-box;
+    padding: 20px 10px;
+    padding-left:25px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    font-family: "Pretendard-SemiBold";
+    font-size: 16px;
+    
+}
+
+#naver .n_btn{
+    width:50px;
+    height:50px;
+    border:none;
+    background: none;
+    font-family: "Pretendard-SemiBold";
+    font-size: 16px;
+    background-image: url(img/google.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
