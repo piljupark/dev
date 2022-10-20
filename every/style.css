@@ -90,6 +90,8 @@ body {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
     font-family: "Pretendard-SemiBold";
     font-size: 16px;
+    -webkit-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
 
 }
 
@@ -137,6 +139,8 @@ body {
     border-radius: 15px;
     border: none;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
     font-family: "Pretendard-SemiBold";
     font-size: 16px;
     
