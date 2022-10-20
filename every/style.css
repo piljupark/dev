@@ -53,7 +53,7 @@ html{
     position: relative;
     width:100vw;
     height:auto;
-    overflow-x: hidden;
+    
 }
 
 body {
@@ -87,6 +87,8 @@ body {
 }
 
 #google td {
+    position: relative;
+    width:100%;
     display: grid;
     grid-template-columns: 1fr 50px;
     column-gap: 10px;
