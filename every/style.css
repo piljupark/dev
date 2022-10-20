@@ -80,6 +80,9 @@ body {
     height: auto;
     box-sizing: border-box;
     padding: 20px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
 }
 
 #google td {
@@ -139,9 +142,7 @@ body {
     grid-template-columns: 1fr 50px;
     column-gap: 10px;
     align-items: center;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
-    -moz-box-shadow:1px 1px 10px 1px rgba(0,0,0,0.1);
+    
 }
 
 #naver .n_search {
