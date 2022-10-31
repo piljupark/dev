@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Flagship store Invitation</title>
+
+    <script src="../default_js/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../default_css/reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="btnKakao">
+        <img src="img/kakao-logo.png" id="kakao-link-btn">
+    </div>
+
+    <div id="main">
+        초대장 공유
+    </div>
+
+     
+    <!-- 카카오톡 메시지 템플릿 공유하기 --> 
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script type='text/javascript'>
+        //<![CDATA[
+        // // 사용할 앱의 JavaScript 키를 설정해 주세요.
+        Kakao.init('0e24a5c9eaf52e80df8d434e9b1815c8');
+        // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+        Kakao.Link.createScrapButton({
+            container: '#kakao-link-btn',
+            requestUrl: 'http://127.0.0.1:5500',
+            templateId : 85105
+        });
+        //]]>
+    </script>
+
+</body>
+
+</html>
