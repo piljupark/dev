@@ -92,9 +92,10 @@ body {
 
 #title-wrap{
     font-family: "Questrial",sans-serif;
-    font-size: 6vw;
-    
+    font-size: 10vw;
     margin-top:50px;
+    box-sizing: border-box;
+    padding:20px;
 }
 
 MARQUEE{
@@ -103,4 +104,16 @@ MARQUEE{
     transform: rotate(-10deg);
     width:calc(100% + 50px);
     margin-left:-25px;
+}
+
+.title{
+    color:#cef42a;
+}
+.title2{
+    margin-top:40px;
+    float:right;
+}
+.title i{
+    color:#fff;
+    font-style: normal;
 }
