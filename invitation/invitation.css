@@ -4,6 +4,9 @@
 /* Sacaramento */
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
+/* Questrial */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 
 /* Pretendard */
 @font-face {
@@ -70,10 +73,10 @@ body {
     left:0;
     top:0;
     background: #2f2f2f;
-    animation-name: bgColor;
+    /*animation-name: bgColor;
     animation-fill-mode: forwards;
     animation-delay: 1s;
-    animation-duration: 1.5s;
+    animation-duration: 1.5s;*/
 }
 
 @keyframes bgColor{
@@ -87,3 +90,12 @@ body {
 }
 
 
+#title-wrap{
+    font-family: "Questrial",sans-serif;
+    font-size: 6vw;
+}
+
+MARQUEE{
+    box-sizing: border-box;
+    padding:10px;
+}
