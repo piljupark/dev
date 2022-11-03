@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+/* Sacaramento */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+/* Pretendard */
+@font-face {
+    font-family: "Pretendard-ExtraLight";
+    src: url(../fonts/Pretendard-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Light";
+    src: url(../fonts/Pretendard-Light.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Thin";
+    src: url(../fonts/Pretendard-Thin.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Regular";
+    src: url(../fonts/Pretendard-Regular.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Medium";
+    src: url(../fonts/Pretendard-Medium.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-SemiBold";
+    src: url(../fonts/Pretendard-SemiBold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Bold";
+    src: url(../fonts/Pretendard-Bold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-ExtraBold";
+    src: url(../fonts/Pretendard-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: "Pretendard-Black";
+    src: url(../fonts/Pretendard-Black.otf);
+}
+
+
+
+html{
+    position: relative;
+    width:100vw;
+    height:auto;
+    
+}
+
+body {
+    position: relative;
+    float:left;
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    left:0;
+    top:0;
+    background: #2f2f2f;
+    animation-name: bgColor;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 1.5s;
+}
+
+@keyframes bgColor{
+    from{
+        background-color: #2f2f2f;
+    }
+
+    to{
+        background-color: #cef42a;
+    }
+}
+
+
