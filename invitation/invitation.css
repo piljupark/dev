@@ -54,13 +54,19 @@
     src: url(../fonts/Pretendard-Black.otf);
 }
 
-
+::-moz-selection{
+    background:#cef42a;
+    color:#2f2f2f;
+}
+::selection{
+    background: #cef42a;
+    color:#2f2f2f;
+}
 
 html{
     position: relative;
     width:100vw;
     height:auto;
-    
 }
 
 body {
@@ -133,3 +139,27 @@ body {
 }
 
 /* //title-wrap */
+
+
+
+#date{
+    position: fixed;
+    bottom:20px;
+    left:20px;
+    width:80px;
+    height:80px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.05);
+    font-family: 'Questrial', sans-serif;
+    color:#fff;
+    font-size: 26px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:10px;
+}
+
+#date i{
+    font-style: normal;
+    font-size: 38px;
+}
