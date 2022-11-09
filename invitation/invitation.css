@@ -103,7 +103,22 @@ body {
     margin-top:50px;
     box-sizing: border-box;
     padding:20px;
+    animation-name: tiTle-wrap;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
 }
+
+@keyframes tiTle-wrap{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
 
 .title{
     color:#cef42a;
@@ -142,26 +157,39 @@ body {
 
 
 
-#date{
-    position: fixed;
-    bottom:20px;
-    left:20px;
-    width:80px;
-    height:80px;
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px 1px rgba(255,255,255,0.05);
+#info-title{
+    position: absolute;
+    width:100%;
+    top:0;
+    left:0;
+    padding:20px;
+    margin-top:50px;
     font-family: 'Questrial', sans-serif;
+    font-size: 9vw;
     color:#fff;
-    font-size: 26px;
     text-align: center;
     box-sizing: border-box;
-    padding-top:10px;
+    animation-name: info-Title;
+    animation-delay: 3.2s;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
-#date i{
+@keyframes info-Title{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#info-title p:nth-child(2){
+    color:#cef42a;
+} 
+#info-title i{
     font-style: normal;
-    font-size: 38px;
+    font-size: 14.5vw;
 }
 
 
