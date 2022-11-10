@@ -214,15 +214,14 @@ body {
 
 /* #place-map */
 #place-map{
-    position: absolute;
+    position: fixed;
     /*top:74vw;*/
-    top:39.5%;
-    left:50%;
-    transform: translate(-50%,0);
+    bottom:20px;
+    right:20px;
     font-family: "Pretendard-SemiBold";
     color:#2f2f2f;
     text-decoration: none;
-    background: #000;
+    background: #fff;
     border-radius: 100%;
     display: flex;
     justify-content: center;
