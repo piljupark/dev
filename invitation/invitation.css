@@ -196,6 +196,20 @@ body {
 
 */
 
+#main {
+    position: relative;
+    float:left;
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+#main img{
+    width:100%;
+}
 
 
 /* #place-map */
@@ -223,23 +237,6 @@ body {
     
 }
 /* //#place-map */
-
-
-
-/* swiper */
-.swiper-slide{
-    box-sizing: border-box;
-    padding:40px;
-    padding-top:20px;
-    padding-bottom:0;
-}
-#ticket{
-    position: relative;
-    width:100%;
-    text-align: center;
-}
-
-/* swiper */
 
 
 
