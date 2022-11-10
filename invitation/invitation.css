@@ -202,7 +202,7 @@ body {
 #place-map{
     position: absolute;
     /*top:74vw;*/
-    top:41.5%;
+    top:39.5%;
     left:50%;
     transform: translate(-50%,0);
     font-family: "Pretendard-SemiBold";
@@ -229,7 +229,8 @@ body {
 /* swiper */
 .swiper-slide{
     box-sizing: border-box;
-    padding:50px;
+    padding:40px;
+    padding-top:20px;
     padding-bottom:0;
 }
 #ticket{
