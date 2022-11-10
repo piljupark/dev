@@ -202,24 +202,25 @@ body {
 #place-map{
     position: absolute;
     /*top:74vw;*/
-    top:41%;
+    top:41.5%;
     left:50%;
     transform: translate(-50%,0);
     font-family: "Pretendard-SemiBold";
     color:#2f2f2f;
     text-decoration: none;
-    background: #fff;
+    background: #000;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding:2.3%;
-    opacity: .7;
+    opacity: 1;
     z-index: 2;
 }
 
 #place-map img{
     width:20px;
+    
 }
 /* //#place-map */
 
