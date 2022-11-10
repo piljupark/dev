@@ -200,19 +200,21 @@ body {
 
 
 #place-map{
-    position: fixed;
-    width:40px;
-    height:40px;
-    bottom:20px;
-    right:20px;
+    position: absolute;
+    /*top:74vw;*/
+    top:37%;
+    left:50%;
+    transform: translate(-50%,0);
     font-family: "Pretendard-SemiBold";
     color:#2f2f2f;
     text-decoration: none;
     background: #fff;
-    border-radius: 40px;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:2.5%;
+    opacity: .7;
 }
 
 #place-map img{
