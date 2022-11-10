@@ -79,7 +79,6 @@ body {
     left:0;
     top:0;
     background: #000;
-    padding:20px;
     box-sizing: border-box;
     overflow-x: hidden;
     /*animation-name: bgColor;
@@ -100,6 +99,7 @@ body {
 
 
 /* title-wrap */
+/*
 #title-wrap{
     font-family: "Questrial",sans-serif;
     font-size: 10vw;
@@ -155,11 +155,10 @@ body {
         opacity: 1;
     }
 }
+*/
 
 /* //title-wrap */
-
-
-
+/*
 #info-title{
     position: absolute;
     width:100%;
@@ -195,14 +194,15 @@ body {
     font-size:14.6vw;
 }
 
+*/
 
 
 
-
+/* #place-map */
 #place-map{
     position: absolute;
     /*top:74vw;*/
-    top:37.5%;
+    top:37%;
     left:50%;
     transform: translate(-50%,0);
     font-family: "Pretendard-SemiBold";
@@ -213,20 +213,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:2.5%;
+    padding:2.3%;
     opacity: .7;
+    z-index: 2;
 }
 
 #place-map img{
-    width:20px;
+    width:35px;
 }
+/* //#place-map */
 
 
 
-
+/* swiper */
+.swiper-slide{
+    box-sizing: border-box;
+    padding:20px;
+}
 #ticket{
     position: relative;
-    float:left;
     width:100%;
     text-align: center;
 }
+
+/* swiper */
+
+
+
+
