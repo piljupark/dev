@@ -78,7 +78,7 @@ body {
     padding:0;
     left:0;
     top:0;
-    background: #2f2f2f;
+    background: #000;
     /*animation-name: bgColor;
     animation-fill-mode: forwards;
     animation-delay: 1s;
@@ -189,7 +189,7 @@ body {
 } 
 #info-title i{
     font-style: normal;
-    font-size: 14.5vw;
+    font-sizvw;
 }
 
 
