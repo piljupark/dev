@@ -202,7 +202,7 @@ body {
 #place-map{
     position: absolute;
     /*top:74vw;*/
-    top:40%;
+    top:41%;
     left:50%;
     transform: translate(-50%,0);
     font-family: "Pretendard-SemiBold";
