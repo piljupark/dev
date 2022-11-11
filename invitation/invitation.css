@@ -1,134 +1,44 @@
 @charset "UTF-8";
-
-
 /* Sacaramento */
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
-/* Questrial */
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');/* Questrial */
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
-
-
 /* Pretendard */
-@font-face {
-    font-family: "Pretendard-ExtraLight";
-    src: url(../fonts/Pretendard-ExtraLight.otf);
-}
+@font-face { font-family: "Pretendard-ExtraLight"; src: url(../fonts/Pretendard-ExtraLight.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Light";
-    src: url(../fonts/Pretendard-Light.otf);
-}
+@font-face { font-family: "Pretendard-Light"; src: url(../fonts/Pretendard-Light.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Thin";
-    src: url(../fonts/Pretendard-Thin.otf);
-}
+@font-face { font-family: "Pretendard-Thin"; src: url(../fonts/Pretendard-Thin.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Regular";
-    src: url(../fonts/Pretendard-Regular.otf);
-}
+@font-face { font-family: "Pretendard-Regular"; src: url(../fonts/Pretendard-Regular.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Medium";
-    src: url(../fonts/Pretendard-Medium.otf);
-}
+@font-face { font-family: "Pretendard-Medium"; src: url(../fonts/Pretendard-Medium.otf); } 
 
-@font-face {
-    font-family: "Pretendard-SemiBold";
-    src: url(../fonts/Pretendard-SemiBold.otf);
-}
+@font-face { font-family: "Pretendard-SemiBold"; src: url(../fonts/Pretendard-SemiBold.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Bold";
-    src: url(../fonts/Pretendard-Bold.otf);
-}
+@font-face { font-family: "Pretendard-Bold"; src: url(../fonts/Pretendard-Bold.otf); } 
 
-@font-face {
-    font-family: "Pretendard-ExtraBold";
-    src: url(../fonts/Pretendard-ExtraBold.otf);
-}
+@font-face { font-family: "Pretendard-ExtraBold"; src: url(../fonts/Pretendard-ExtraBold.otf); } 
 
-@font-face {
-    font-family: "Pretendard-Black";
-    src: url(../fonts/Pretendard-Black.otf);
-}
+@font-face { font-family: "Pretendard-Black"; src: url(../fonts/Pretendard-Black.otf); } 
 
-::-moz-selection{
-    background:#cef42a;
-    color:#2f2f2f;
-}
-::selection{
-    background: #cef42a;
-    color:#2f2f2f;
-}
+::-moz-selection { background: #cef42a; color: #2f2f2f; } 
 
-html{
-    position: relative;
-    width:100vw;
-    height:auto;
-}
+::selection { background: #cef42a; color: #2f2f2f; } 
 
-body {
-    position: relative;
-    float:left;
-    width: 100%;
-    height: auto;
-    margin:0;
-    padding:0;
-    left:0;
-    top:0;
-    background: #000;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    /*animation-name: bgColor;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    animation-duration: 1.5s;*/
-}
+html { position: relative; width: 100vw; height: auto; } 
+
+body { position: relative; float: left; width: 100%; height: auto; margin: 0; padding: 0; left: 0; top: 0; background: #000; box-sizing: border-box; overflow-x: hidden; /*animation-name: bgColor; animation-fill-mode: forwards; animation-delay: 1s; animation-duration: 1.5s; */}
 
 
-#main {
-    position: relative;
-    float:left;
-    width:100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding:10px;
-}
+#main { position: relative; float: left; width: 100%; height: auto; display: flex; justify-content: center; box-sizing: border-box; padding: 10px; } 
 
-#main img{
-    width:100%;
-}
+#main img { width: 100%; } 
 
 
 /* #place-map */
-#place-map{
-    position: fixed;
-    /*top:74vw;*/
-    bottom:20px;
-    right:20px;
-    font-family: "Pretendard-SemiBold";
-    color:#2f2f2f;
-    text-decoration: none;
-    background: #fff;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding:2.3%;
-    opacity: 1;
-    z-index: 2;
-}
+#place-map { position: fixed; /*top:74vw; */
+ bottom: 20px; right: 20px; font-family: "Pretendard-SemiBold"; color: #2f2f2f; text-decoration: none; background: #fff; border-radius: 100%; display: flex; justify-content: center; align-items: center; padding: 2.3%; opacity: 1; z-index: 2; } 
 
-#place-map img{
-    width:20px;
-    
-}
+#place-map img { width: 20px; } 
+
 /* //#place-map */
-
-
-
-

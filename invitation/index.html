@@ -17,16 +17,23 @@
 
 <body>
 
-    <div id="btnKakao">
-        <img src="img/kakao-logo.png" id="kakao-link-btn">
-    </div>
-
     <div id="main">
         초대장 공유
     </div>
 
-     
-    <!-- 카카오톡 메시지 템플릿 공유하기 --> 
+    <div id="btnKakao-i">
+        <img src="img/kakao-logo.png" id="kakao-link-btn1" alt="kakao">
+        내부 초대용 
+    </div>
+
+    <div id="btnKakao-o">
+        <img src="img/kakao-logo.png" id="kakao-link-btn2" alt="kakao">
+        외부 초대용
+    </div>
+
+
+
+    <!-- 카카오톡 메시지 템플릿 공유하기 -->
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
     <script type='text/javascript'>
         //<![CDATA[
@@ -34,11 +41,23 @@
         Kakao.init('0e24a5c9eaf52e80df8d434e9b1815c8');
         // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
         Kakao.Link.createScrapButton({
-            container: '#kakao-link-btn',
-            requestUrl: 'http://127.0.0.1:5500',
-            templateId : 85105
+            container: '#kakao-link-btn1',
+            requestUrl: 'http://piljupark.github.io/place_lab/invitation/invitation-i.html',
+            templateId: 85105
         });
         //]]>
+    </script>
+
+    <script type='text/javascript'>
+        //<![CDATA[
+        // // 사용할 앱의 JavaScript 키를 설정해 주세요
+        // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+        Kakao.Link.createScrapButton({
+            container: '#kakao-link-btn2',
+            requestUrl: 'http://piljupark.github.io/place_lab/invitation/invitation-o.html',
+            templateId: 85711
+        });
+    //]]>
     </script>
 
 </body>
