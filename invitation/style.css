@@ -1,8 +1,6 @@
 @charset "UTF-8";
-
 /* Sacaramento */
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-
 /* Pretendard */
 @font-face { font-family: "Pretendard-ExtraLight"; src: url(../fonts/Pretendard-ExtraLight.otf); } 
 
@@ -24,18 +22,16 @@
 
 
 
-html { position: relative; width:100vw; height:auto; }
+html { position: relative; width: 100vw; height: auto; } 
 
-body { position: relative; float:left; width: 100%; height: auto; margin:0; padding:0; left:0; top:0;}
+body { position: relative; float: left; width: 100%; height: auto; margin: 0; padding: 0; left: 0; top: 0; } 
 
-#main { position:relative; float:left; width:100%; height:100vh; font-family: 'Pretendard-Bold'; font-size: 20vw; display: flex; justify-content: center; align-items: center; } 
+#main { position: relative; float: left; width: 100%; height: 100vh; font-family: 'Pretendard-Bold'; font-size: 20vw; display: flex; justify-content: center; align-items: center; } 
 
-#btnKakao-i { position: fixed; width:200px; height:50px; bottom:20px; right:20px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2); border-radius: 40px; cursor: pointer; z-index: 10; display: flex; align-items: center; font-family: "Pretendard-SemiBold"; font-size: 20px; } 
-#btnKakao-i img { width:40px; margin-right:20px; margin-left:5px; } 
+#kakao-link-btn1 { position: fixed; width: 140px; height: 50px; bottom: 20px; right: 20px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2); border-radius: 40px; cursor: pointer; z-index: 10; display: flex; align-items: center; font-family: "Pretendard-SemiBold"; font-size: 16px; } 
 
-#btnKakao-o { position: fixed; width:200px; height:50px; bottom:20px; left:20px; box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2); border-radius: 40px; cursor: pointer; z-index: 10; display: flex; align-items: center; font-family: "Pretendard-SemiBold"; font-size: 20px; } 
-#btnKakao-o img { width:40px; margin-right:20px; margin-left:5px; } 
+#kakao-link-btn1 img { width: 40px; margin-right: 10px; margin-left: 5px; } 
 
+#kakao-link-btn2 { position: fixed; width: 140px; height: 50px; bottom: 20px; left: 20px; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2); border-radius: 40px; cursor: pointer; z-index: 10; display: flex; align-items: center; font-family: "Pretendard-SemiBold"; font-size: 16px; } 
 
-
-
+#kakao-link-btn2 img { width: 40px; margin-right: 10px; margin-left: 5px; } 
