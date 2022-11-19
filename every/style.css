@@ -62,7 +62,7 @@ body {
     width: 100%;
     height: auto;
     margin:0;
-    padding:20px;
+    padding:40px 20px;
     left:0;
     top:0;
     box-sizing: border-box;
@@ -70,13 +70,17 @@ body {
 
 #google {
     position: relative;
-    float: left;
     width: 100%;
     height: 100%;
-    margin-top:20px;
+    max-width: 300px;
+    margin:0 auto;
+    border-radius: 40px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
 }
 
-#google table {
+/*#google table {
     position: relative;
     width: 100%;
     max-width: 300px;
@@ -101,18 +105,17 @@ body {
     grid-template-columns: 1fr 50px;
     column-gap: 10px;
     align-items: center;
-}
+}*/
 
 #google .g_search {
     box-sizing: border-box;
     padding:0;
-    padding-left:25px;
-    border-radius: 15px;
+    padding-left:20px;
+    border-radius: 40px;
     border: none;
-    font-family: "Pretendard-Regular";
+    font-family: "Pretendard-Medium";
     font-size: 16px;
     outline: none;
-
 }
 
 #google .g_btn{
