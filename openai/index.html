@@ -41,22 +41,6 @@
       </div>`;
       document.querySelector('.chat-content').insertAdjacentHTML('beforeend', template1);
 
-
-      /* 
-      let q = 'http://localhost:3000/translate?q=' + document.querySelector('#input').value;
-      axios.get(q).then(r => {
-
-        var 결과 = JSON.parse(r.data).message.result.translatedText;
-        console.log(결과);
-
-        let template2 = `<div class="line">
-          <div class="chat-box">${결과}</div>
-        </div>`;
-        document.querySelector('.chat-content').insertAdjacentHTML('beforeend', template2);
-      }).catch((error) => { console.log('실패', error) });
-      */
-
-
       const configuration = new Configuration({
         apiKey: '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',
       });

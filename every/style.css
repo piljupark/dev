@@ -1,4 +1,23 @@
 @charset "UTF-8";
+
+/* NeueHaasDisplay */
+@font-face {
+  font-family: "NeueHaasDisplayRoman";
+  src: url(../fonts/NeueHaasDisplayRoman.ttf);
+}
+
+@font-face {
+  font-family: "NeueHaasDisplayMedium";
+  src: url(../fonts/NeueHaasDisplayMedium.ttf);
+}
+
+@font-face {
+  font-family: "NeueHaasDisplayLight";
+  src: url(../fonts/NeueHaasDisplayLight.ttf);
+}
+/* //NeueHaasDisplay */
+
+
 /* Pretendard */
 
 @font-face {
@@ -46,10 +65,13 @@
   src: url(../fonts/Pretendard-Black.otf);
 }
 
+
+
 html {
   position: relative;
   width: 100vw;
   height: auto;
+  font-family: 'NeueHaasDisplayLight', "Pretendard-SemiBold";
 }
 
 body {
@@ -62,8 +84,62 @@ body {
   left: 0;
   top: 0;
   box-sizing: border-box;
+  background: none;
+}
+a, p, ul, li{
+  list-style: none;
+  text-decoration: none;
+  color:#000;
 }
 
+/* nav */
+#nav {
+  position: fixed;
+  width:100%;
+  height:60px;
+  top:0;
+  left:0;
+  padding:20px;
+  box-sizing: border-box;
+}
+#nav .logo{
+  font-size: 18px;
+}
+/* //nav */
+
+
+/* temp-wrap */
+#temp-wrap{
+  position: relative;
+  float:right;
+  width: 100px;
+  height: auto;
+}
+#temp-wrap p{
+  font-size: 16px;
+}
+#temp-wrap .ctemp{
+  width:100%;
+  font-size: 50px;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+#temp-wrap .lowtemp, .hightemp{
+  float:left;
+  width:50%;
+  text-align: center;
+}
+#temp-wrap .icon{
+  text-align: center;
+}
+/* //temp-wrap*/
+
+/* google search form */
+/*
 #google {
   position: relative;
   width: 100%;
@@ -102,7 +178,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+*/
+/* //google search form */
 
-#naver {
-  display: none;
-}
