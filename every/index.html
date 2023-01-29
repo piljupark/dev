@@ -48,13 +48,14 @@
         <p class="ctemp"></p>
         <p class="lowtemp"></p>
         <p class="hightemp"></p>
-        <p class="icon"></p>
+        <!--<p class="icon"></p>-->
     </div>
     <!-- //nav -->
 
 
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
     <script>
         $.getJSON('https://api.openweathermap.org/data/2.5/weather?lat=37.5683&lon=126.9778&appid=e5357d6690df2d749338068485e71ba1&units=metric', function(result)
         {
@@ -64,9 +65,9 @@
             //result.weather[0].icon
             var wiconUrl = '<img src="https://openweathermap.org/img/wn/'+result.weather[0].icon+'.png" alt=" ' + result.weather[0].description + ' ">'
             $('.icon').html(wiconUrl);
-
         });
     </script>
+    
 
 </body>
 
