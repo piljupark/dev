@@ -45,10 +45,10 @@
     </nav>-->
 
     <div id="temp-wrap">
+        <p class="icon"></p>
         <p class="ctemp"></p>
         <p class="lowtemp"></p>
         <p class="hightemp"></p>
-        <!--<p class="icon"></p>-->
     </div>
     <!-- //nav -->
 
@@ -63,7 +63,7 @@
             $('.lowtemp').append(result.main.temp_min);
             $('.hightemp').append(result.main.temp_max);
             //result.weather[0].icon
-            var wiconUrl = '<img src="https://openweathermap.org/img/wn/'+result.weather[0].icon+'.png" alt=" ' + result.weather[0].description + ' ">'
+            var wiconUrl = '<img src="https://openweathermap.org/img/wn/'+result.weather[0].icon+'@2x.png" alt=" ' + result.weather[0].description + ' ">'
             $('.icon').html(wiconUrl);
         });
     </script>

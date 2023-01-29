@@ -114,8 +114,8 @@ a, p, ul, li{
 /* temp-wrap */
 #temp-wrap{
   position: relative;
-  width: 200px;
-  height: 60px;
+  width: 170px;
+  height: 140px;
   background: #eee;
   border-radius: 10px;
 }
@@ -125,8 +125,9 @@ a, p, ul, li{
   font-weight: 500;
 }
 #temp-wrap .ctemp{
-  width:100px;
+  width:auto;
   float:left;
+  width:110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,24 +135,34 @@ a, p, ul, li{
 }
 #temp-wrap .lowtemp{
   position: relative;
-  float:left;
-  width:100px;
+  float:right;
+  width:60px;
   height:30px;
-  background: #ddd;
-  display: flex;
-  justify-content: center;
-  align-items: center
-}
-#temp-wrap .hightemp{
-  position:relative;
-  float:left;
-  width:100px;
-  height:30px;
-  background: #ccc;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#temp-wrap .hightemp{
+  position:relative;
+  float:right;
+  width:60px;
+  height:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#temp-wrap .icon{
+  position: relative;
+  float:left;
+  width:100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#temp-wrap .icon img{
+  width:70px;
 }
 
 /* //temp-wrap*/
