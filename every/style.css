@@ -115,9 +115,9 @@ a, p, ul, li{
 #temp-wrap{
   position: relative;
   width: 170px;
-  height: 140px;
-  background: #eee;
+  height: 170px;
   border-radius: 10px;
+  background: rgb(244, 244, 244);
 }
 #temp-wrap p{
   font-size: 16px;
@@ -156,7 +156,7 @@ a, p, ul, li{
   position: relative;
   float:left;
   width:100%;
-  height: 70px;
+  height: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
